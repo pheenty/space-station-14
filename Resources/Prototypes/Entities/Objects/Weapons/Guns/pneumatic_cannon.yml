@@ -17,6 +17,7 @@
     quickEquip: false
     slots:
     - Back
+    - SuitStorage
   - type: Gun
     fireRate: 2
     selectedMode: SemiAuto
@@ -103,7 +104,7 @@
     containers:
       storagebase: !type:Container
         ents: []
-        
+
 - type: entity
   name: syringe gun
   parent: BaseStorageItem
